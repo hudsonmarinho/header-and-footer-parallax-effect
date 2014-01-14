@@ -18,5 +18,13 @@ function scrollFooter(scrollY, heightFooter)
 
 // Start Action to load the whole page
 $(window).load(function(){
+	var windowHeight	= $(window).height(),
+		footerHeight	= $('footer').height(),
+		heightDocument	= (windowHeight) + ($('.content').height()) + ($('footer').height());
+
+	// Defining the size of the element to animate
+	$('#scroll-animate, #scroll-animate-main').css({
+		'height' :  heightDocument + 'px'
+	});
 });
 //]]>
