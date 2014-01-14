@@ -42,6 +42,12 @@ $(window).load(function(){
 
 	// Start Action on scrolling
 	window.onscroll = function(){
+		var scroll = window.scrollY;
+
+		// Creating the effect of smooth animation content to use the scroll.
+		$('#scroll-animate-main').css({
+			'top' : '-' + scroll + 'px'
+		});
 	});
 });
 //]]>
