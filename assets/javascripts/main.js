@@ -26,5 +26,15 @@ $(window).load(function(){
 	$('#scroll-animate, #scroll-animate-main').css({
 		'height' :  heightDocument + 'px'
 	});
+
+	// Defining the size of the header and content elements
+	$('header').css({
+		'height' : windowHeight + 'px',
+		'line-height' : windowHeight + 'px'
+	});
+
+	$('.wrapper-parallax').css({
+		'margin-top' : windowHeight + 'px'
+	});
 });
 //]]>
