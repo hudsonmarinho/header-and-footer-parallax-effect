@@ -56,6 +56,6 @@ $(window).load(function(){
 
 		// On scrolling using function scrollFooter() to verify the position of the scroll and hide the footer
 		scrollFooter(scroll, footerHeight);
-	});
+	};
 });
 //]]>
