@@ -48,6 +48,11 @@ $(window).load(function(){
 		$('#scroll-animate-main').css({
 			'top' : '-' + scroll + 'px'
 		});
+
+		// Creating sensation of parallax in the header bg.
+		$('header').css({
+			'background-position-y' : 50 - (scroll * 100 / heightDocument) + '%'
+		});
 	});
 });
 //]]>
