@@ -53,6 +53,9 @@ $(window).load(function(){
 		$('header').css({
 			'background-position-y' : 50 - (scroll * 100 / heightDocument) + '%'
 		});
+
+		// On scrolling using function scrollFooter() to verify the position of the scroll and hide the footer
+		scrollFooter(scroll, footerHeight);
 	});
 });
 //]]>
