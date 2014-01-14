@@ -1,0 +1,30 @@
+#scroll-animate
+{
+	overflow: hidden;
+}
+
+#scroll-animate-main
+{
+	width: 100%;
+	left: 0;
+	position: fixed;
+}
+
+#heightPage,
+#heightScroll
+{
+	width: 10px;
+	top: 0;
+	position: absolute;
+	z-index: 99;
+}
+
+#heightPage
+{
+	left: 0;
+}
+
+#heightScroll
+{
+	right: 0;
+}
