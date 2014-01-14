@@ -15,4 +15,8 @@ function scrollFooter(scrollY, heightFooter)
 		});
 	}
 }
+
+// Start Action to load the whole page
+$(window).load(function(){
+});
 //]]>
