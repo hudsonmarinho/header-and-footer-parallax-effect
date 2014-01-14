@@ -92,3 +92,22 @@ footer h1
 {
 	line-height: 300px;
 }
+
+
+/* Inserting style animations for layout. */
+header,
+footer,
+#scroll-animate-main
+{
+	-webkit-transition-property: all;
+		 -moz-transition-property: all;
+			transition-property: all;
+
+	-webkit-transition-duration: 0.4s;
+		 -moz-transition-duration: 0.4s;
+			transition-duration: 0.4s;
+
+	-webkit-transition-timing-function: cubic-bezier(0, 0, 0, 1);
+		 -moz-transition-timing-function: cubic-bezier(0, 0, 0, 1);
+			transition-timing-function: cubic-bezier(0, 0, 0, 1);
+}
