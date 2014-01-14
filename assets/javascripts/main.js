@@ -36,5 +36,8 @@ $(window).load(function(){
 	$('.wrapper-parallax').css({
 		'margin-top' : windowHeight + 'px'
 	});
+
+	// Getting function scrollFooter() to verify the position of the scroll and hide the footer
+	scrollFooter(window.scrollY, footerHeight);
 });
 //]]>
